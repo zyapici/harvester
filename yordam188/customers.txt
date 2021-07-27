@@ -1,0 +1,13 @@
+ns212168;ANKARA YILDIRIM BEYAZIT ÜNIVERSITESI;http://kutuphane.ybu.edu.tr;cat03941a;r%5EHkkGPq2;4;NO
+s6082320;HARRAN UNIVERSITY;https://yordam.harran.edu.tr;cat03260a;Joni5qyt;7;YES
+ns280811;ISTANBUL ATLAS ÜNIVERSITESI;https://katalog.atlas.edu.tr;cat08606a;8krF%7C4NP;7;NO
+ns314288;ISTANBUL SAGLIK VE TEKNOLOJI ÜNIVERSITESI;https://kutuphane.istun.edu.tr;cat08536a;%40mdX%3A9%7BE;7;NO
+ns250928;ISTINYE UNIVERSITESI;https://katalog.istinye.edu.tr;cat07947a;hr52zA3%3ES%40;2;YES
+s8776435;KOCAELI UNIVERSITESI;http://library.kocaeli.edu.tr;cat03540a;b9%2BFgf9Q2;7;YES
+s5377720;KIRIKKALE UNIVERSITY;https://kutuphane.kku.edu.tr;cat03536a;KYqWs~6w6;3;NO
+s8391385;MARMARA UNIVERSITESI;https://katalog.marmara.edu.tr;cat03925a;fCk^V9s95;10;YES
+s7666979;Mimar Sinan Guzel Sanatlar Universitesi;http://kutuphane.msgsu.edu.tr;cat05026a;%3B73Xw%40IrTA;5;NO
+s1219727;TRAKYA UNIVERSITESI;https://katalog.trakya.edu.tr;cat03325a;QUD1PAx5;7;NO
+ns149683;YALOVA UNIVERSITESI;https://kutuphane.yalova.edu.tr;cat03560a;4ZtKHyg%5Ew;7;NO;
+s1679883;YEDITEPE UNIVERSITESI;http://yordam.yeditepe.edu.tr;cat03537a;9!ncVPxv9;7;NO
+s9291447;YILDIZ TEKNIK UNIVERSITESI;http://yordam.ktp.yildiz.edu.tr;cat04422a;W4Zck4%2Bw2;3;YES
