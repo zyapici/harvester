@@ -1,0 +1,6 @@
+ns212168;ANKARA YILDIRIM BEYAZIT ÜNIVERSITESI;https://kutuphane.aybu.edu.tr/yordam/webservis;cat03941a;r%5EHkkGPq2;10;NO
+s2364567;BAHÇESEHIR ÜNIVERSITESI;https://libris.bahcesehir.edu.tr/yordam/webservis;cat03891a;hc9MSwg%2BQ;4;YES
+ns075304;ISTANBUL AREL UNIVERSITY;https://katalog.arel.edu.tr/yordam/webservis;cat03527a;CKm!n7fjJ;7;NO
+ns250928;ISTINYE UNIVERSITESI;https://katalog.istinye.edu.tr/yordam/webservis;cat07947a;hr52zA3%3ES%40;2;YES
+s6144892;SAKARYA UNIVERSITESI;http://w3.sakarya.edu.tr/yordam/webservis;cat03294a;ZoGe0quV;7;YES
+s8391385;MARMARA UNIVERSITESI;https://katalog.marmara.edu.tr/yordam/webservis;cat03925a;fCk^V9s95;10;YES
