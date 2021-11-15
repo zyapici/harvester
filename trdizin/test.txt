@@ -1,0 +1,3 @@
+	zip warning: name not matched: c:\wamp64\www	rdizin	rdizin\data
+
+zip error: Nothing to do! (try: zip -r c:\wamp64\www	rdizin	rdizin\data\data.zip . -i c:\wamp64\www	rdizin	rdizin\data)

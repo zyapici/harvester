@@ -1,6 +1,37 @@
+s5011179;ABANT IZZET BAYSAL UNIVERSITY;http://katalog.ibu.edu.tr/yordam/webservis;cat06206a;k0rKXL%3FH7%5C;7;YES
+ns108489;ACIBADEM UNIVERSITY;http://katalog.acibadem.edu.tr/yordam/webservis;cat03952a;hxNcSH^5h;7;NO
+ns233251;ADANA BILIM VE TEKNOLOJI UNIVERSITESI;https://katalog.atu.edu.tr/yordam/webservis;cat03301a;XeTu2rib;7;YES
+s5541761;ADNAN MENDERES UNIVERSITY;https://katalog.adu.edu.tr/yordam/webservis;cat06453a;%5EJ%3BS%40z92IY;7;NO
+ns101747;AHI EVRAN UNIVERSITY;https://yordam.ahievran.edu.tr/yordam/webservis;cat03951a;WctT%2BR5zv;7;NO
+s4795880;AKDENIZ UNIVERSITY;http://tarama.akdeniz.edu.tr/yordam/webservis;cat04016a;C5tg~rZM6;7;NO
+ns075298;AKSARAY UNIVERSITESI;https://katalogtarama.aksaray.edu.tr/yordam/webservis;cat05510a;C6%3Fe%5Crb5S%5E;7;NO
+ns149669;ALTINBAS ÜNIVERSITESI;https://kutuphane.altinbas.edu.tr/yordam/webservis;cat03600a;6Nx!XyBfy;7;YES
+ns101748;AMASYA UNIVERSITY;https://tarama.amasya.edu.tr/yordam/webservis;cat06573a;%3CaDqgM7%5E8b;7;NO
 ns212168;ANKARA YILDIRIM BEYAZIT ÜNIVERSITESI;https://kutuphane.aybu.edu.tr/yordam/webservis;cat03941a;r%5EHkkGPq2;10;NO
+ns108503;ARTVIN CORUH UNIVERSITY;https://library.artvin.edu.tr/yordam/webservis;cat04738a;ZDZm%5B*4m;7;YES
 s2364567;BAHÇESEHIR ÜNIVERSITESI;https://libris.bahcesehir.edu.tr/yordam/webservis;cat03891a;hc9MSwg%2BQ;4;YES
+ns250692;BANDIRMA ONYEDI EYLUL UNIVERSITESI;https://katalog.bandirma.edu.tr/yordam/webservis;cat06468a;n6ml%3F7%5E5%5ER;7;NO
+s3609632;BULENT ECEVIT UNIVERSITY;https://kutuphane.beun.edu.tr/yordam/webservis;cat04736a;MwTd%5B9%7C%2A;7;NO
+ns108502;ÇANKIRI KARATEKIN ÜNIVERSITESI;https://katalog.karatekin.edu.tr/yordam/webservis;cat02207a;SUfy0sEj;7;NO
 ns075304;ISTANBUL AREL UNIVERSITY;https://katalog.arel.edu.tr/yordam/webservis;cat03527a;CKm!n7fjJ;7;NO
+ns280811;ISTANBUL ATLAS ÜNIVERSITESI;https://katalog.atlas.edu.tr/yordam/webservis;cat08606a;8krF%7C4NP;7;NO
+ns212164;ISTANBUL MEDENIYET UNIVERSITY;https://yordam.medeniyet.edu.tr/yordam/webservis;cat04019a;2GgH%2BtM84;7;NO
+ns196114;ISTANBUL MEDIPOL UNIVERSITY;https://katalogtarama.medipol.edu.tr/yordam/webservis;cat05064a;%5B4N8%3AGz%5DDO;7;NO
+ns314288;ISTANBUL SAGLIK VE TEKNOLOJI ÜNIVERSITESI;https://kutuphane.istun.edu.tr/yordam/webservis;cat08536a;%40mdX%3A9%7BE;7;NO
+ns280812;ISTANBUL ÜNIVERSITESI CERRAHPASA;https://katalog.istanbulc.edu.tr/yordam/webservis;cat08243a;%3ChAk9F_g88;7;NO
 ns250928;ISTINYE UNIVERSITESI;https://katalog.istinye.edu.tr/yordam/webservis;cat07947a;hr52zA3%3ES%40;2;YES
-s6144892;SAKARYA UNIVERSITESI;http://w3.sakarya.edu.tr/yordam/webservis;cat03294a;ZoGe0quV;7;YES
+s4687548;KADIR HAS ÜNIVERSITESI;https://katalog.khas.edu.tr/yordam/webservis;cat03940a;f7!dW)le;2;NO;
+ns108501;KILIS 7 ARALIK UNIVERSITESI;https://yordam.kilis.edu.tr/yordam/webservis;cat06593a;cA21o%3E4M%5B%5C;7;NO
+s5377720;KIRIKKALE UNIVERSITY;https://kutuphane.kku.edu.tr/yordam/webservis;cat03536a;KYqWs~6w6;3;NO
+ns108506;KIRKLARELI UNIVERSITY;https://katalog.klu.edu.tr/yordam/webservis;cat03291a;ToGIs7uV;7;YES
+ns280816;KONYA TEKNIK ÜNIVERSITESI;https://yordam.ktun.edu.tr/yordam/webservis;cat08161a;U9%5E%3Fe5LVLa;7;NO
+s7538029;MALTEPE UNIVERSITESI;https://yeni-kutuphane.maltepe.edu.tr/yordam/webservis;cat07990a;5M%3Ctswb5_I;3;NO
 s8391385;MARMARA UNIVERSITESI;https://katalog.marmara.edu.tr/yordam/webservis;cat03925a;fCk^V9s95;10;YES
+s6055533;MERSIN UNIVERSITY;http://yordam.mersin.edu.tr/yordam/webservis;cat05210a;%40X%5Dx8%3Fl1E2;7;NO
+ns108477;RECEP TAYYIP ERDOGAN UNIVERSITESI;http://kutuphane.rize.edu.tr/yordam/webservis;cat03846a;G5jj7n~Bd;7;NO
+s6144892;SAKARYA UNIVERSITESI;http://w3.sakarya.edu.tr/yordam/webservis;cat03294a;ZoGe0quV;7;YES
+ns075303;USAK UNIVERSITESI;https://katalog.usak.edu.tr/yordam/webservis;cat03599a;p8BJd~55C;7;YES
+ns149683;YALOVA UNIVERSITESI;https://kutuphane.yalova.edu.tr/yordam/webservis;cat03560a;4ZtKHyg%5Ew;7;NO;
+s1019409;YASAR UNIVERSITESI;https://kutuphane.yasar.edu.tr/yordam/webservis;cat03538a;X!8pj5Khz;7;NO
+s1679883;YEDITEPE UNIVERSITESI;http://yordam.yeditepe.edu.tr/yordam/webservis;cat03537a;9!ncVPxv9;7;NO
+ns075299;YOZGAT BOZOK ÜNIVERSITESI;http://yordam.bozok.edu.tr/yordam/webservis;cat08261a;2zPL%3C_aP0J;7;YES;

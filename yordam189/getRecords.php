@@ -31,9 +31,11 @@ error_reporting(1);
                 $returned = curl_exec($ch);
 			
                 curl_close($ch);
+				$returned= str_replace("﻿", "", $returned);
                 $json_response_total = json_decode($returned);
-             
+      
 		$total=$json_response_total->KAYITSAYISI;
+		 
 		 
                 
 ////////////////////////////////////END_LOOK_AT_TOTAL/////////////////////////////////////
@@ -44,7 +46,8 @@ error_reporting(1);
                 
 ///////////////////////////////DOWNLOAD_RECORDS_5000_BY_5000/////////////////////////////////
                 //$total=500;
-		for($i=0;$i<$total;$i=$i+50)
+		
+                for($i=0;$i<$total;$i=$i+50)
 		{
 		        ///////// get KKN ///////////
                                 $curlURL="".$url."/webservis.php?islem=sMarcYordamKKN&token=5c947748411d1f36d85039f2ff56a0ab&start=".$i."&rows=50";
@@ -58,6 +61,7 @@ error_reporting(1);
 
                                 $returnedjson5000 = curl_exec($curl);
                                 curl_close($curl);
+								$returnedjson5000 = str_replace("﻿", "", $returnedjson5000);
                                 $array5000 = json_decode($returnedjson5000,true);
                               
                                 $array5000KKN=$array5000["VERI"]["yordamKKN"];
@@ -83,6 +87,7 @@ error_reporting(1);
 
                                 $returnedjson5000mrk = curl_exec($curlmrk);
                                 curl_close($curlmrk);
+								$returnedjson5000mrk= str_replace("﻿", "", $returnedjson5000mrk);
                                 $array5000mrk = json_decode($returnedjson5000mrk,true);
                                 
                                 for($mrk=0;$mrk<count($array5000mrk["VERI"]["MarcMrk"]);$mrk=$mrk+1)
@@ -114,19 +119,22 @@ error_reporting(1);
     	
                 }
                 
-                
                 $handlecatalog=fopen($custid."/marc/allmark(records)_first.mrk","r");
                 $fileallmarkload=fopen($custid."/marc/allmark(records).mrk","w");
    
                 if($handlecatalog)
                 {
                     $countline=0;
+					$countline856=0;
                     while(($line=fgets($handlecatalog))!==FALSE)
                    {
                         if(strlen($line) > 9 || $line=="=007  t\n")
                         {
                             if(strpos($line,"=LDR  ")>-1 && $countline>0)
+							{
                                  fwrite($fileallmarkload,"\r\n");
+								 $countline856=0;
+							}
                             if(strpos($line,"=001  ")>-1)
                             {
                                  fwrite($fileallmarkload,str_replace("=001  ",'=902  __$a',$line));
@@ -137,10 +145,46 @@ error_reporting(1);
                                  fwrite($fileallmarkload,str_replace('=902  __$a','=001  ',$line));
                                  continue;
                             }
-                            if(strpos($line,"=856  40")>-1 && strpos($line,"yordambt/yordam.php?sayfa=sayfaArama")>-1)
+                            if(strpos($line,"=856  40")>-1 && strpos($line,"sayfa=sayfaArama")>-1)
                                  continue;
-                            
-                            fwrite($fileallmarkload, $line);
+							
+							if(strpos($line,"=856  40")>-1 && strpos($line,"udata:image")>-1)
+                                 continue;
+							
+                            if(strpos($line,"=856 41 ")>-1)
+							{
+								$countline856=$countline856+1;
+								if($countline856>20)
+									continue;
+								else
+								{
+									fwrite($fileallmarkload,str_replace('=856 41 ','=856  41',$line));
+									continue;
+								}
+							}
+							
+							if(strpos($line,"=505  ")>-1)
+							{
+							
+							    $lastewrite=str_replace("........",' ',$line);
+								$lastewrite=str_replace("……",' ',$lastewrite);
+								$lastewrite=str_replace("$x",' ',$lastewrite);
+								
+								fwrite($fileallmarkload, substr($lastewrite, 0, 9200));
+								continue;
+							}
+							
+							$lastwrite=str_replace("“",'',$line);
+							$lastwrite=str_replace("”",'',$lastwrite);
+							$lastwrite=str_replace("Ã¶",'',$lastwrite);
+							$lastwrite=str_replace("Ã¤",'',$lastwrite);
+							$lastwrite=str_replace("ÃŸ",'',$lastwrite);
+							$lastwrite=str_replace("æ",'',$lastwrite);
+							$lastwrite=str_replace("........",' ',$lastwrite);
+							$lastwrite=str_replace("……",' ',$lastwrite);
+							$lastwrite=str_replace("Ã³",'',$lastwrite);
+							
+                            fwrite($fileallmarkload, substr($lastwrite, 0, 9200));
                         }
                        $countline=$countline+1; 
                    }
