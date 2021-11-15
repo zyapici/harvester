@@ -1,0 +1,10 @@
+.idea/
+
+vendor/
+
+public/
+build/
+cache/
+
+composer.phar
+

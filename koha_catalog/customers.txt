@@ -1,0 +1,4 @@
+s1176823|BALIKESIR UNIVERSITY|http://katalog.balikesir.edu.tr|cat02851a|gYzag1ok|7|YES|47000|
+s4564102|BURSA ULUDAG ÜNIVERSITESI|http://tarama.uludag.edu.tr|cat08213a|Z%40G%5B7h_%3B3E|7|YES|450000|
+ns108496|NEVSEHIR HACI BEKTAS VELI ÜNIVERSITESI|http://ekatalog.nevsehir.edu.tr|cat08405a|2V%25%40*dFi|7|NO|500000|
+ns221022|YÜKSEK IHTISAS ÜNIVERSITESI|http://katalog.yiu.edu.tr|cat08659a|K)Q8wpRd|7|NO|5000|

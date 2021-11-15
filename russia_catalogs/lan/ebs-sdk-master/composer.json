@@ -1,0 +1,40 @@
+{
+  "name": "lan/ebs-sdk",
+  "description": "Ebs SDK",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis Shestakov",
+      "email": "das@landev.ru"
+    },
+    {
+      "name": "Emil Limarenko",
+      "email": "eal@landev.ru"
+    }  ],
+  "autoload": {
+    "psr-4": {
+      "Lan\\Ebs\\Sdk\\": "src/",
+      "Lan\\Ebs\\Sdk\\Classes\\": "src/classes/",
+      "Lan\\Ebs\\Sdk\\Collection\\": "src/collection/",
+      "Lan\\Ebs\\Sdk\\Helper\\": "src/helper/",
+      "Lan\\Ebs\\Sdk\\Model\\": "src/model/",
+      "Lan\\Ebs\\Sdk\\Test\\Unit\\": "tests/unit/"
+    }
+  },
+  "require": {
+    "php": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 7.0.* || 7.1.* || 7.2.* || 7.3.*"
+  },
+  "require-dev": {
+    "codeception/codeception": "3.1.*",
+    "squizlabs/php_codesniffer": "dev-master",
+    "sami/sami": "3.*"
+  },
+  "config": {
+    "secure-http": false,
+    "sort-packages": true,
+    "platform": {
+      "php": "5.6"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+filter:
+    paths:
+        - src/*
+    excluded_paths:
+        - tests/*
+        - vendor/*
+
+checks:
+    php:
+        code_rating: true
+        duplication: true
+
+coding_style:
+    php:
+        spaces:
+            around_operators:
+                concatenation: true
+            other:
+                after_type_cast: false
+
+tools:
+    php_sim: true
+    php_pdepend:
+        filter:
+            excluded_paths: ['tests/*','vendor/*']
+    php_analyzer: true
+    php_cs_fixer: true
+    external_code_coverage:
+        timeout: 2100 # Timeout in seconds.
