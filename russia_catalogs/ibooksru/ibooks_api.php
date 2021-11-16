@@ -244,7 +244,7 @@ function getMetadata($record) {
 	return $metadataMRKOutput;
 }
 function sanitizeText($dirtyText) {
-	return trim(strip_tags(str_replace(array("\n", "\r"), ' ', $dirtyText)));
+	return trim(strip_tags(str_replace(array("\n", "\r","&quot;"), ' ', $dirtyText)));
 } 
 
 
